@@ -4,18 +4,18 @@
             <div class="cabinet__settings_block">
                 <div class="cabinet__settings_title">Настройка аккаунта <img src="/images/icons/ic-lb-user.png"></div>
                 <div class="cabinet__settings_form">
-                    <div class="cabinet__settings_form_title">Введите данные аккаунта</div>
+                    <div class="cabinet__settings_form_title">Enter your account information</div>
                     <div>
-                        <input placeholder="Полное имя*">
+                        <input placeholder="Full Name*">
                     </div>
                     <div>
                         <input placeholder="Email* ">
                     </div>
                     <div>
-                        <input placeholder="Пароль* ">
+                        <input placeholder="Password* ">
                     </div>
                     <div class="cabinet__settings_warning">
-                        Если вы не хотите менять пароль, оставьте поле пустым.
+                        If you do not want to change the password, leave the field blank.
                     </div>
 
                 </div>

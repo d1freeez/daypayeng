@@ -27,38 +27,38 @@
                         <ul v-if="type_link=='a'">
                             <li>
                                 <a href="/">
-                                    Работнику
+                                    For employee
                                 </a>
                             </li>
                             <li>
                                 <a href="/employer">
-                                    Работодателю
+                                    For employer
                                 </a>
                             </li>
                             <li class="animation_scroll">
-                                <a href="/#form">Приведи работодателя</a>
+                                <a href="/#form">Bring your employer</a>
                             </li>
                             <li>
-                                <a href="/question">Часто задаваемые вопросы</a>
+                                <a href="/question">FAQ</a>
                             </li>
                         </ul>
                         <ul v-else="">
                             <li>
                                 <router-link to="/">
-                                    Работнику
+                                    For employee
                                 </router-link>
                             </li>
                             <li>
                                 <router-link to="/employer"
                                 >
-                                    Работодателю
+                                    For employer
                                 </router-link>
                             </li>
                             <li class="animation_scroll">
-                                <a href="#form">Приведи работодателя</a>
+                                <a href="#form">Bring your employer</a>
                             </li>
                             <li>
-                                <router-link to="/question">Часто задаваемые вопросы</router-link>
+                                <router-link to="/question">FAQ</router-link>
                             </li>
                         </ul>
                     </div>
@@ -72,18 +72,18 @@
                                     <a-menu-item>
                                         <template v-if="!backlink">
                                             <a href="/dashboard/redirect"
-                                            >Дашборд</a
+                                            >Dashboard</a
                                             >
                                         </template>
                                         <template v-else="">
                                             <a href="/employee/profile"
-                                            >Настройки аккаунта</a
+                                            >Account settings</a
                                             >
                                         </template>
                                     </a-menu-item>
                                     <a-menu-item>
                                         <a href="#" @click="showModal"
-                                        >Служба поддержки</a
+                                        >Support team</a
                                         >
                                     </a-menu-item>
                                     <a-menu-item>
@@ -93,7 +93,7 @@
                                     </a-menu-item>
                                     <a-menu-item>
                                         <a href="/logout"
-                                        >Выход</a
+                                        >Exit</a
                                         >
                                     </a-menu-item>
                                 </a-menu>
@@ -126,39 +126,39 @@
                 </div>
                 <ul>
                     <li @click="menuToggle()">
-                        <a href="/">Работнику</a>
+                        <a href="/">Employee</a>
                     </li>
                     <li @click="menuToggle()">
-                        <a href="/employer">Работодателю</a>
+                        <a href="/employer">Employer</a>
                     </li>
                     <li @click="menuToggle()" class="animation_scroll">
-                        <a href="/#form">Приведи работодателя</a>
+                        <a href="/#form">Bring your employer</a>
                     </li>
                     <li @click="menuToggle()">
-                        <a href="/question">Часто задаваемые вопросы</a>
+                        <a href="/question">FAQ</a>
                     </li>
                     <li>
                         <template v-if="user">
                             <a href="/dashboard/redirect">{{ user.s_name + " " + user.name }}</a>
                         </template>
                         <template v-else="">
-                            <a href="/login">Войти</a>
+                            <a href="/login">Sign in</a>
                         </template>
                     </li>
                 </ul>
             </div>
         </div>
         <a-modal
-            title="Служба поддержки"
+            title="Support team"
             :visible="visible"
             :confirm-loading="confirmLoading"
             @ok="handleOk"
-            :okText="'Отправить'"
+            :okText="'Send'"
             @cancel="handleCancel"
         >
-            <div class="cabinet__card_input"><input v-model="form.title" required placeholder="Заголовок"></div>
+            <div class="cabinet__card_input"><input v-model="form.title" required placeholder="Title"></div>
             <div class="cabinet__card_input"><textarea v-model="form.description" required
-                                                       placeholder="Описание"></textarea>
+                                                       placeholder="Description"></textarea>
             </div>
 
             <p>{{ ModalText }}</p>

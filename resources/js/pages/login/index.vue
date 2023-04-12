@@ -16,20 +16,10 @@
                 </div>
                 <div class="login__header_right">
                     <div class="login__header_right_left -desktop">
-                        <a href="#">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4.25 12.2744L19.25 12.2744" stroke="white" stroke-width="1.5"
-                                      stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M10.2998 18.2988L4.2498 12.2748L10.2998 6.24976" stroke="white"
-                                      stroke-width="1.5"
-                                      stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            Назад</a>
                     </div>
                     <div class="login__header_right_right -desktop">
-                        <a href="#"> Нет аккаунта?</a>
-                        <a href="#"> Регистрация работодателя</a>
+                        <a href="#"> No account?</a>
+                        <a href="#"> Employer registration</a>
                     </div>
                     <div class="login__header_right_right -mobile">
                         <router-link to="'/'">
@@ -71,20 +61,20 @@
                 <div class="login__right">
                     <form class="login__form">
                         <div class="login__form_title">
-                            Вход в свой аккаунт
+                            Logging into your account
                         </div>
                         <div class="login__form_input">
                             <img src="/images/icons/ic-login-message.svg"> <input placeholder="Email">
                         </div>
                         <div class="login__form_input">
-                            <img src="/images/icons/ic-login-password.svg"> <input placeholder="Пароль" type="password">
+                            <img src="/images/icons/ic-login-password.svg"> <input placeholder="Password" type="password">
                             <img src="/images/icons/ic-login-glass.svg">
                         </div>
                         <div>
-                            <button class="login__form_btn">Войти</button>
+                            <button class="login__form_btn">Sign in</button>
                         </div>
                         <div class="login__form__forget">
-                            <router-link :to="'/forget'">Забыли Ваш пароль ?</router-link>
+                            <router-link :to="'/forget'">Forgot your password?</router-link>
                         </div>
 
                     </form>
@@ -92,8 +82,8 @@
 
                 </div>
                 <div class="login__footer">
-                    <router-link to="'/'">Нет аккаунта?</router-link>
-                    <router-link to="'/'"> Регистрация работодателя</router-link>
+                    <router-link to="'/'">No account?</router-link>
+                    <router-link to="'/'"> Employer registration</router-link>
                 </div>
 
             </div>

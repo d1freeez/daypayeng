@@ -8,13 +8,13 @@
                         <div class="img">
                             <img src="/images/icons/call.svg" alt="">
                         </div>
-                        <a href="tel:+77478884957">+7(747)888-49-57</a>
+                        <a href="tel:+77478884957">+123</a>
                     </div>
                     <div class="__call">
                         <div class="img">
                             <img src="/images/icons/mess.svg" alt="">
                         </div>
-                        <a href="mailto:info@daypay.kz">info@daypay.kz</a>
+                        <a href="mailto:info@daypay.kz">info@wage2.cash</a>
                     </div>
                 </div>
 
@@ -24,13 +24,13 @@
                             <div class="img">
                                 <img src="/images/icons/call.svg" alt="">
                             </div>
-                            <a href="tel:+77478884957">+7(747)888-49-57</a>
+                            <a href="tel:+77478884957">+123</a>
                         </div>
                         <div class="__call">
                             <div class="img">
                                 <img src="/images/icons/mess.svg" alt="">
                             </div>
-                            <a href="mailto:info@daypay.kz">info@daypay.kz</a>
+                            <a href="mailto:info@daypay.kz">info@wage2.cash</a>
                         </div>
                     </div>
                 </div>
@@ -42,32 +42,32 @@
                                 <li>
                                     <a href="/">Главная</a>
                                 </li>
-                                <li><a href="/#what_is__section">О компании</a></li>
-                                <li><a href="/legal-data">Юридические данные</a></li>
+                                <li><a href="/#what_is__section">About us</a></li>
+                                <li><a href="/legal-data">Legal information</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3">
                             <ul>
-                                <p>Работнику</p>
+                                <p>To the employee</p>
                                 <li>
-                                    <a href="/#form">Приведи работодателя</a>
+                                    <a href="/#form">Bring your employer</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-md-3">
                             <ul>
-                                <p>Работодателю</p>
-                                <li><a href="/#form">Зарегистрироваться</a></li>
+                                <p>To the Employer</p>
+                                <li><a href="/#form">Sign up</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3">
                             <ul>
-                                <p>Часто задаваемые вопросы</p>
+                                <p>FAQ</p>
                                 <li>
-                                    <a href="/question">Работник</a>
+                                    <a href="/question">Employee</a>
                                 </li>
                                 <li>
-                                    <a href="/question">Работодатель</a>
+                                    <a href="/question">Employer</a>
                                 </li>
                             </ul>
                         </div>
@@ -76,7 +76,7 @@
             </div>
             <div class="__copyright">
                 <div class="container">
-                    <p>«DayPay Limited | All rights reserved»</p>
+                    <p>«Wage2Cash Limited | All rights reserved»</p>
                 </div>
             </div>
         </div>
