@@ -23,19 +23,19 @@
                             appear
                             name="fadeRight"
                         >
-                            <div class="main__purple__block_left_logo"><span>Day</span><span>Pay</span></div>
+                            <div class="main__purple__block_left_logo"><span>Wage2</span><span>Cash</span></div>
                         </Transition>
                         <Transition
                             appear
                             name="fadeRight"
                         >
-                            <div class="main__purple__block_left_subtitle">Сервис по управлению заработной платой</div>
+                            <div class="main__purple__block_left_subtitle">Payroll management service</div>
                         </Transition>
                         <Transition
                             appear
                             name="fadeRight"
                         >
-                            <a href="#form" class="main__purple__block_left_btn">Зарегестироваться
+                            <a href="#form" class="main__purple__block_left_btn">Sign Up
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -68,16 +68,16 @@
                             src="/images/icons/calendar-blue-light.png">
                         </div>
                         <div class="main__purple__block_calendar_description">
-                            Как часто ваши работники нуждаются в деньгах до зарплаты?
+                            How often do your employees need money before payday?
                         </div>
                     </div>
                     <div class="main__calendar_description">
                         <div class="main__calendar_description_left">
                             <div>
-                                <p>При опросе населения с заработной платой до 200 000 тг</p>
+                                <p>When surveying the population with salaries up to 500$</p>
                                 <span>92,3%</span>
-                                <p>опрашиваемых минимум раз в месяц сталкиваются с острой необходимостью в
-                                    деньгах.</p>
+                                <p>of interviewees face an urgent need for money at least once a month.
+                                    money.</p>
                             </div>
                         </div>
                         <div class="main__calendar_description_divider">
@@ -85,15 +85,15 @@
                         <div class="main__calendar_description_right">
                             <div class="main__calendar_description_right_item">
                                 <span>до 1500%</span>
-                                <p>Годовая ставка микрофинансовые организации</p>
+                                <p>Annual rate microfinance institutions</p>
                             </div>
                             <div class="main__calendar_description_right_item">
                                 <span>23-56%</span>
-                                <p>годовая ставка банки второго уровня</p>
+                                <p>annual rate second-tier banks</p>
                             </div>
                             <div class="main__calendar_description_right_item">
                                 <span>55%</span>
-                                <p>долги по кредитам у граждан РК</p>
+                                <p>Loan debts of citizens of the UAE</p>
                             </div>
 
                         </div>
@@ -102,7 +102,7 @@
 
                     <div class="main__problems_block">
                         <div class="main__problems_title">
-                            Проблема
+                            Problem
                         </div>
                         <div class="main__problems">
                             <div class="main__problem">
