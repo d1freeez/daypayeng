@@ -1,0 +1,71 @@
+.nav-menu {
+    .__login button {
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        color: #fff;
+        transition: all 0.5s;
+        font-family: "Qanelas";
+        display: flex;
+        background: transparent;
+        min-height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 15px;
+            height: 20px;
+            object-fit: contain;
+            object-position: center;
+            margin-left: 10px;
+        }
+    }
+
+    .__login a {
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        color: #fff;
+        transition: all .5s;
+        font-family: 'Qanelas';
+        display: flex;
+
+
+        svg {
+            margin-left: 10px;
+        }
+
+        &:active {
+            color: #fff !important;
+        }
+
+        &:hover {
+            color: #fff !important;
+        }
+
+        @include phones {
+            border: none;
+        }
+    }
+
+    @include phones {
+        padding: 20px 0 !important;
+        .__login {
+            button {
+                min-height: auto;
+                padding: 0px 10px;
+            }
+        }
+        .__logo {
+            margin-left: 0px !important;
+
+
+            img {
+                max-width: 120px;
+            }
+        }
+    }
+}
+
+

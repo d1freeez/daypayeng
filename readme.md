@@ -1,0 +1,1 @@
+<p align="center">Avand - by Comiq</p>

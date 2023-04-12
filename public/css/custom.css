@@ -1,0 +1,90 @@
+/*
+
+Template: Appino - Responsive App Landing Page
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+
+NOTE: You can use your styling layout by this file to your website.
+
+*/
+
+.section-field select {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 90px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 90px;
+    padding-left: 20px;
+    height: 48px;
+    line-height: 48px;
+    clear: both;
+    color: #8b8c8b;
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+}
+.section-field select:before {
+    content: "▼";
+    padding: 12px 8px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* remove default caret for ie */
+
+.section-field select::-ms-expand {
+    display: none;
+}
+
+.section-field select:focus:invalid {
+    border-color: #FD6347;
+}
+
+.section-field select:required:valid {
+    border-color: #006400;
+}
+
+#loading {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading-center {
+    background-color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.rounded {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.top-rounded {
+    border-top-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+}
+
+.bottom-rounded {
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+}

@@ -1,0 +1,125 @@
+.footer {
+    padding: 65px 0px;
+
+    .__social.-mobile {
+        display: none;
+    }
+
+    .__social.-desktop {
+        display: block;
+    }
+
+    @include phones {
+        .__social.-mobile {
+            display: block;
+        }
+
+        .__social.-desktop {
+            display: none;
+        }
+        text-align: center;
+
+
+        .__call {
+            display: flex;
+            justify-content: center;
+
+            a {
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+
+    &.-black {
+        background: #000;
+    }
+
+    .__social_list {
+        display: flex;
+        margin-bottom: 40px;
+        @include phones {
+            display: block;
+        }
+    }
+
+    .__call {
+        display: flex;
+        margin-right: 45px;
+
+        @include phones {
+
+        }
+
+        img {
+            width: 35px;
+            height: 35px;
+            object-fit: contain;
+            margin-right: 10px;
+        }
+
+        a {
+            font-family: 'Qanelas';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+            border-bottom: 1px solid transparent;
+            transition: all 0.5s;
+            padding-bottom: 5px;
+
+            &:hover {
+                color: #fff !important;
+                border-bottom: 1px solid #fff;
+            }
+        }
+
+    }
+
+    .__list {
+        ul {
+            list-style: none;
+
+            p {
+                font-family: 'Qanelas';
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 260%;
+                color: #FFFFFF;
+                margin: 0px;
+            }
+
+            li {
+                a {
+                    font-family: 'Qanelas';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 260%;
+                    color: #FFFFFF;
+                    border-bottom: 1px solid transparent;
+                    transition: all 0.5s;
+                    padding-bottom: 5px;
+
+                    &:hover {
+                        color: #fff !important;
+                        border-bottom: 1px solid #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .__copyright {
+        text-align: center;
+        font-family: 'Qanelas';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 260%;
+        color: #FFFFFF;
+    }
+
+}
