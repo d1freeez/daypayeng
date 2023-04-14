@@ -12,7 +12,7 @@ return [
     |
     */
 
-    'home' => 'Главная',
+    /*'home' => 'Главная',
     'locality' => 'Местность',
     'country' => 'Страна',
     'region' => 'Область',
@@ -35,5 +35,5 @@ return [
     'feedback' => 'Обратная связь',
     'documents' => 'Документы',
     'card_change_application' => 'Заявки на смену карты',
-    'commission_refund_application' => 'Заявки на возврат комиссии'
+    'commission_refund_application' => 'Заявки на возврат комиссии'*/
 ];
