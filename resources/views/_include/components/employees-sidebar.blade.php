@@ -13,18 +13,18 @@
         </div>
     </div>
     <div class="cabinet__card mt-4">
-        <div class="cabinet__card_header">Вывести деньги</div>
+        <div class="cabinet__card_header">Withdraw money</div>
         @if(!$card && config('app.env') == 'production')
             <div class="cabinet__card_content">
                 <div class="cabinet__card_input mt-4">
                     <p class="text-danger mt-1 mb-1">
-                        Для получения выплаты вам нужно добавить свою банковскую карту
+                    You need to add your bank card to receive your payout
                     </p>
                 </div>
                 <div>
                     <button type="button" class="cabinet__card_btn"
                             onclick="window.location.replace('{{ route('employees.dashboard.cards') }}')">
-                        Добавить <img src="{{ asset('images/icons/ic-arrow-right.png') }}" alt="">
+                        Add <img src="{{ asset('images/icons/ic-arrow-right.png') }}" alt="">
                     </button>
                 </div>
             </div>
@@ -50,10 +50,10 @@
         @endif
     </div>
     <div class="cabinet__card mt-4">
-        <div class="cabinet__card_header">Выплаты</div>
+        <div class="cabinet__card_header">Withdraws</div>
         <div class="cabinet__card_content">
             <div class="cabinet__card_description">
-                Общее количество выплат за все время
+                Total number of payments for all time
             </div>
             <div class="cabinet__card_subprice">
                 {{ auth()->user()->accounts()->completed()->count() }}
@@ -61,10 +61,10 @@
         </div>
     </div>
     <div class="cabinet__card mt-4">
-        <div class="cabinet__card_header">Активные выплаты</div>
+        <div class="cabinet__card_header">Active Withdraws</div>
         <div class="cabinet__card_content">
             <div class="cabinet__card_description">
-                Количество выплат выполненных за этот месяц
+                Amount of withdraws this motnh
             </div>
             <div class="cabinet__card_subprice">
                 {{ auth()->user()->accounts()->monthly()->count() }}

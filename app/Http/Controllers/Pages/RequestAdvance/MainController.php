@@ -29,11 +29,11 @@ class MainController extends Controller
     public function create(): View|RedirectResponse
     {
         if (!User::find(auth()->id())->cards()->exists()) {
-            toastError('Для получения выплаты вам нужно добавить карту');
+            toastError('You need to add your bank card to receive your payout');
             return redirect()->route('employees.dashboard');
         }
         return view('pages.request-advance.create', [
-            'title' => 'Отправить запрос на получение выплаты'
+            'title' => 'Submit a request for payment'
         ]);
     }
 
@@ -42,7 +42,7 @@ class MainController extends Controller
     {
         $requestAdvanceCreator->create($request->validated());
 
-        toastSuccess('Ваш запрос был выслан для проверки.');
+        toastSuccess('Your request has been sent out for verification.');
         return back();
     }
 }
