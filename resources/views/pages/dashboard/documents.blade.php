@@ -8,18 +8,18 @@
             <div class="cabinet__right ">
                 <div class="cabinet__card">
                     <div class="cabinet__navbar">
-                        <a href="{{ route('employees.dashboard') }}" class="cabinet__navbar_item ">История выплат</a>
-                        <a href="{{ route('employees.dashboard.cards') }}" class="cabinet__navbar_item ">Карты</a>
-                        <a href="{{ route('employees.dashboard.documents') }}" class="cabinet__navbar_item -active">Документы</a>
+                        <a href="{{ route('employees.dashboard') }}" class="cabinet__navbar_item ">Payout history</a>
+                        <a href="{{ route('employees.dashboard.cards') }}" class="cabinet__navbar_item ">Cards</a>
+                        <a href="{{ route('employees.dashboard.documents') }}" class="cabinet__navbar_item -active">Documents</a>
                     </div>
                     <div class="cabinet__document_list">
                         <div class="cabinet__document_item">
                             <div class="cabinet__document_item_left">
                                 <span> #1</span>
-                                Документ.pdf
+                                Document.pdf
                             </div>
                             <div class="cabinet__document_item_right">
-                                <a href="#" download=""> Скачать
+                                <a href="#" download=""> Download
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -42,10 +42,10 @@
                         <div class="cabinet__document_item">
                             <div class="cabinet__document_item_left">
                                 <span> #1</span>
-                                Документ.pdf
+                                Document.pdf
                             </div>
                             <div class="cabinet__document_item_right">
-                                <a href="#" download=""> Скачать
+                                <a href="#" download=""> Download
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -68,10 +68,10 @@
                         <div class="cabinet__document_item">
                             <div class="cabinet__document_item_left">
                                 <span> #1</span>
-                                Документ.pdf
+                                Document.pdf
                             </div>
                             <div class="cabinet__document_item_right">
-                                <a href="#" download=""> Скачать
+                                <a href="#" download=""> Download
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd"

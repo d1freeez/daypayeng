@@ -1,7 +1,7 @@
 <div
     class="cabinet__left <?= request()->input('dashboard') !== null && request()->input('dashboard') === 'true' ? '-desktop' : '-mobile' ?>">
     <div class="cabinet__card">
-        <div class="cabinet__card_header">Доступная сумма</div>
+        <div class="cabinet__card_header">Available amount</div>
         <div class="cabinet__card_content">
             <div class="cabinet__card_price">
                 {{ auth()->user()->balance }} ₸

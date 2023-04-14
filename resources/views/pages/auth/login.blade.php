@@ -4,7 +4,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>DayPay | {{$title}} </title>
+    <title>Wage 2 cash | {{$title}} </title>
     <meta name="description" content="Login page example">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -140,20 +140,10 @@
         </div>
         <div class="login__header_right">
             <div class="login__header_right_left -desktop">
-                <a href="/">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                         xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.25 12.2744L19.25 12.2744" stroke="white" stroke-width="1.5"
-                              stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M10.2998 18.2988L4.2498 12.2748L10.2998 6.24976" stroke="white"
-                              stroke-width="1.5"
-                              stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    Назад</a>
             </div>
             <div class="login__header_right_right -desktop">
-                <a href="#"> Нет аккаунта?</a>
-                <a href="/employer#form" class="-last"> Регистрация работодателя</a>
+                <a href="#"> Registration?</a>
+                <a href="/employer#form" class="-last"> Employer Registration</a>
             </div>
             <div class="login__header_right_right -mobile">
                 <a href="'/'">
@@ -196,7 +186,7 @@
         <div class="login__right">
             <form class="login__form" action="{{ route('login.post') }}" method="POST">
                 <div class="login__form_title">
-                    Вход в свой аккаунт
+                   Sign in
                 </div>
                 <div class="form-group @error('password') validated @enderror ">
                     <div class="login__form_input">
@@ -223,10 +213,10 @@
                 @csrf
 
                 <div>
-                    <button class="login__form_btn" type="submit">Войти</button>
+                    <button class="login__form_btn" type="submit">Sign in</button>
                 </div>
                 <div class="login__form__forget">
-                    <a href="{{ route('reset_password') }}">Забыли Ваш пароль ?</a>
+                    <a href="{{ route('reset_password') }}">Forgot password</a>
                 </div>
 
             </form>

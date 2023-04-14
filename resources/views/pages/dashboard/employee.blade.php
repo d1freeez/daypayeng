@@ -9,10 +9,9 @@
                 class="cabinet__right <?= isset($_GET['dashboard']) && $_GET['dashboard'] === 'true' ? '-mobile' : '-desktop' ?>">
                 <div class="cabinet__card" id="cabinet__card">
                     <div class="cabinet__navbar">
-                        <a href="{{ route('employees.dashboard') }}" class="cabinet__navbar_item -active">История
-                            выплат</a>
-                        <a href="{{ route('employees.dashboard.cards') }}" class="cabinet__navbar_item ">Карты</a>
-                        <a href="{{ route('employees.dashboard.documents') }}" class="cabinet__navbar_item ">Документы</a>
+                        <a href="{{ route('employees.dashboard') }}" class="cabinet__navbar_item -active">History of payouts</a>
+                        <a href="{{ route('employees.dashboard.cards') }}" class="cabinet__navbar_item ">Cards</a>
+                        <a href="{{ route('employees.dashboard.documents') }}" class="cabinet__navbar_item ">Documents</a>
                     </div>
                     <div class="cabinet__history_list">
 
@@ -33,7 +32,7 @@
                                 </div>
                             </div>
                         @empty
-                            <div class="cabinet__card_header" style="margin-top: 20px;">Пока нет выплат</div>
+                            <div class="cabinet__card_header" style="margin-top: 20px;">No payouts now</div>
                         @endforelse
                     </div>
                 </div>
