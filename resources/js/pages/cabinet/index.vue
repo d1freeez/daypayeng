@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="cabinet__card mt-4">
-                        <div class="cabinet__card_header">Активные выплаты</div>
+                        <div class="cabinet__card_header">Active payouts</div>
                         <div class="cabinet__card_content">
                             <div class="cabinet__card_description">
                                 Amount of payouts in this month

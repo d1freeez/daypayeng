@@ -115,7 +115,7 @@
             }
             $('#advance_amount_percents').val(percent);
             let target = $(this).data('target');
-            $(`${target} .modal-body`).empty().append(`<p> Для получения выплаты, вам нужно оплатить комиссию за перевода 1,9% (${percent} тг мин 300тг.) от вашей выплаты (${advance} тг.) </p>`)
+            $(`${target} .modal-body`).empty().append(`<p> Для получения payouts, вам нужно оплатить комиссию за перевода 1,9% (${percent} тг мин 300тг.) от вашей payouts (${advance} тг.) </p>`)
         });
     </script>
 @endsection

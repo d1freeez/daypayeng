@@ -90,7 +90,7 @@
                                                                     <i class="la la-edit"></i> {{ __('table.edit') }}
                                                                 </a>
                                                                 <a href="{{ route('employees.without.checking', $item) }}" class="dropdown-item">
-                                                                    <i class="la {{ $item->without_checking == 0 ? 'la-check-circle' : 'la-times-circle' }}"></i> {{ $item->without_checking == 0 ? 'Выдавать без проверки' : 'Выдавать с проверкой' }}
+                                                                    <i class="la {{ $item->without_checking == 0 ? 'la-check-circle' : 'la-times-circle' }}"></i> {{ $item->without_checking == 0 ? 'Issuance without verification' : 'Выдавать с проверкой' }}
                                                                 </a>
                                                                 <a href="{{ route('employees.accrued.calendar', $item) }}" class="dropdown-item">
                                                                     <i class="la la-calendar"></i> {{ __('table.accrual_calendar') }}

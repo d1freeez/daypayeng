@@ -94,9 +94,9 @@
                             <div class="kt-widget24__details">
                                 <div class="kt-widget24__info">
                                     <h4 class="kt-widget24__title">
-                                        Выплаты
+                                        payouts
                                     </h4>
-                                    <span class="kt-widget24__desc">общее количество выплат за все время</span>
+                                    <span class="kt-widget24__desc">total amount of payouts of all time</span>
                                 </div>
                                 <span class="kt-widget24__stats" style="color: #2b3990">{{ $user->accountsCommissionPaidCount() }}</span>
                             </div>
@@ -107,9 +107,9 @@
                             <div class="kt-widget24__details">
                                 <div class="kt-widget24__info">
                                     <h4 class="kt-widget24__title">
-                                        Активные выплаты
+                                        Active payouts
                                     </h4>
-                                    <span class="kt-widget24__desc">количество выплат выполненных за этот месяц</span>
+                                    <span class="kt-widget24__desc">amount of payouts in this month</span>
                                 </div>
                                 <span class="kt-widget24__stats" style="color: #662d91">{{ $user->accountsMonthlyCount() }}</span>
                             </div>
@@ -201,7 +201,7 @@
             $('#advance_amount_percents').val(percent);
             let target = $(this).data('target');
             let modal = $(target);
-            $(`${target} .modal-body`).empty().append(`<p> Для получения выплаты, вам нужно оплатить комиссию за перевода 1,9% (${percent} тг мин 300тг.) от вашей выплаты (${advance} тг.) </p>`)
+            $(`${target} .modal-body`).empty().append(`<p> Для получения payouts, вам нужно оплатить комиссию за перевода 1,9% (${percent} тг мин 300тг.) от вашей payouts (${advance} тг.) </p>`)
         });
     </script>
 @endsection

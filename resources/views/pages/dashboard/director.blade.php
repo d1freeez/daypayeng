@@ -32,9 +32,9 @@
                             <div class="kt-widget24__details">
                                 <div class="kt-widget24__info">
                                     <h4 class="kt-widget24__title">
-                                        Выплаты
+                                        payouts
                                     </h4>
-                                    <span class="kt-widget24__desc">общее количество выплат за все время</span>
+                                    <span class="kt-widget24__desc">total amount of payouts of all time</span>
                                 </div>
                                 <span
                                     class="kt-widget24__stats kt-font-warning">
@@ -54,9 +54,9 @@
                             <div class="kt-widget24__details">
                                 <div class="kt-widget24__info">
                                     <h4 class="kt-widget24__title">
-                                        Активные выплаты
+                                        Active payouts
                                     </h4>
-                                    <span class="kt-widget24__desc">количество выплат выполненных за этот месяц</span>
+                                    <span class="kt-widget24__desc">amount of payouts in this month</span>
                                 </div>
                                 <span
                                     class="kt-widget24__stats kt-font-danger">
@@ -74,9 +74,9 @@
                             <div class="kt-widget24__details">
                                 <div class="kt-widget24__info">
                                     <h4 class="kt-widget24__title">
-                                        Количесво менеджеров
+                                        amount of managers
                                     </h4>
-                                    <span class="kt-widget24__desc">общее количество менеджоров</span>
+                                    <span class="kt-widget24__desc">total amount of managers</span>
                                 </div>
                                 <span
                                     class="kt-widget24__stats kt-font-success">
