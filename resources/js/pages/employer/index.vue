@@ -107,8 +107,8 @@
                         <div class="main__problems">
                             <div class="main__problem">
                                 <div class="main__problem_title"><img src="/images/icons/ic-from-left.png"></div>
-                                <div class="main__problem_subtitle">РАБОТНИКИ</div>
-                                <div class="main__problem_description">которым срочно нужны деньги</div>
+                                <div class="main__problem_subtitle">Employees</div>
+                                <div class="main__problem_description">who urgently need money</div>
                             </div>
                             <div class="main__problem">
                                 <div class="main__problem_title"><img src="/images/icons/ic-from-right.png"></div>
@@ -314,15 +314,15 @@
 
                             <div class="form__block_right">
                                 <form v-on:submit.prevent="onSubmitForm">
-                                    <input type="text" placeholder="Название компании*" v-model="company.company_name">
-                                    <input type="text" placeholder="Адрес компании*" required v-model="company.company_address">
-                                    <input type="text" placeholder="Телефон" v-model="company.company_number">
+                                    <input type="text" placeholder="Company name*" v-model="company.company_name">
+                                    <input type="text" placeholder="Company address*" required v-model="company.company_address">
+                                    <input type="text" placeholder="Phone Number" v-model="company.company_number">
                                     <input type="email" placeholder="E-mail*" required v-model="company.company_email">
-                                    <input type="text" placeholder="Примерное количество работников"
+                                    <input type="text" placeholder="Approximate number of employees"
                                            v-model="company.employees_count">
-                                    <input type="text" placeholder="Где вы услышали о нас?"
+                                    <input type="text" placeholder="Where did you hear about us?"
                                            v-model="company.where_did_you_hear">
-                                    <button type="submit" class="btn btn-blue">Отправить
+                                    <button type="submit" class="btn btn-blue">Send
                                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
                                              xmlns="http://www.w3.org/2000/svg">
                                             <path d="M20.25 11.7256L5.25 11.7256" stroke="white" stroke-width="1.5"

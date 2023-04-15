@@ -76,7 +76,7 @@
                                             <th>#</th>
                                             <th>ФИО работника</th>
                                             <th>Компания работника</th>
-                                            <th>Телефон</th>
+                                            <th>Phone Number</th>
                                             <th>Причина</th>
                                             <th>Возвратил</th>
                                             <th>{{ __('table.actions') }}</th>

@@ -10,7 +10,7 @@
             <form action="" method="post" enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="form-group">
-                        <label for="refund_advance_phone" class="form-control-label">Номер телефона</label>
+                        <label for="refund_advance_phone" class="form-control-label">Номер Phone Numberа</label>
                         <input type="text" id="refund_advance_phone" class="form-control" name="phone" required>
                     </div>
                     <div class="form-group">

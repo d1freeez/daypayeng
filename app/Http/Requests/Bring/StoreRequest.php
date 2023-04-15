@@ -46,7 +46,7 @@ class StoreRequest extends FormRequest
             'company_number' => 'Номер компании',
             'company_email' => 'Email компании',
             'employees_count' => 'Примерное кол-во работников',
-            'where_did_you_hear' => 'Где вы услышали о нас?'
+            'where_did_you_hear' => 'Where did you hear about us?'
         ];
     }
 }

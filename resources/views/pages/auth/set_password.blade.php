@@ -137,7 +137,7 @@
                                 <a href="{{ route('login') }}" class="kt-link kt-login__link-forgot">
                                     Назад
                                 </a>
-                                <button type="submit" class="btn btn-primary btn-elevate kt-login__btn-primary">Отправить запрос</button>
+                                <button type="submit" class="btn btn-primary btn-elevate kt-login__btn-primary">Send запрос</button>
                             </div>
 
                             <!--end::Action-->

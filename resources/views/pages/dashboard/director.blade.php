@@ -10,7 +10,7 @@
                             <div class="kt-widget24__details">
                                 <div class="kt-widget24__info">
                                     <h4 class="kt-widget24__title">
-                                        Работники
+                                        Employees
                                     </h4>
                                     <span class="kt-widget24__desc">общее количество</span>
                                 </div>

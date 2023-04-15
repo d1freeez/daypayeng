@@ -25,7 +25,7 @@
                                     <input id="user_email" class="form-control" type="text" value="{{ $item->user->email }}" disabled>
                                 </div>
                                 <div class="form-group col-md-4">
-                                    <label for="phone">Телефон <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
+                                    <label for="phone">Phone Number <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
                                     <input id="phone" class="form-control" type="text" value="{{ $item->phone }}" disabled>
                                 </div>
                                 <div class="form-group col-md-6">
