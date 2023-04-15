@@ -70,7 +70,7 @@
                                                 </td>
                                                 <td>
                                                     @if ($item->verified == 1 OR $item->is_active == 1)
-                                                        {{ $item->is_active == 1 ? 'Активный' : 'Не активен' }}
+                                                        {{ $item->is_active == 1 ? 'Active' : 'Не активен' }}
                                                         <span class="kt-badge {{ $item->is_active == 1 ? 'kt-badge--success' : 'kt-badge--danger' }} kt-badge--dot"></span>
                                                     @else
                                                         {{ __('table.mail_not_confirmed') }} <span class="kt-badge kt-badge--danger kt-badge--dot"></span>

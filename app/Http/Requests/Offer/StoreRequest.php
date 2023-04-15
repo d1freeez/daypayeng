@@ -37,7 +37,7 @@ class StoreRequest extends FormRequest
     public function attributes(): array
     {
         return [
-            'title' => 'Заголовок',
+            'title' => 'Title',
             'description' => 'Текст'
         ];
     }

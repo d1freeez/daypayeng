@@ -22,7 +22,7 @@
                                         <tr>
                                             <th>#</th>
                                             <th>Полное имя</th>
-                                            <th>Заголовок</th>
+                                            <th>Title</th>
                                             <th>Дали ответ</th>
                                             <th>{{ __('table.created_at') }}</th>
                                             <th>{{ __('table.updated_at') }}</th>

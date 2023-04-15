@@ -52,7 +52,7 @@
                                                 <td>{{ $item->bin }}</td>
                                                 <td>
                                                     @if ($item->director && $item->director->verified == 1)
-                                                        {{ $item->director->is_active == 1 ? 'Активный' : 'Не активен' }}
+                                                        {{ $item->director->is_active == 1 ? 'Active' : 'Не активен' }}
                                                         <span class="kt-badge {{ $item->director->is_active == 1 ? 'kt-badge--success' : 'kt-badge--danger' }} kt-badge--dot"></span>
                                                     @elseif(!$item->director)
                                                         Не найдено

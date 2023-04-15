@@ -6,7 +6,7 @@
   $.fn.markdown.messages['ua'] = {
     'Bold': "Жирний",
     'Italic': "Курсів",
-    'Heading': "Заголовок",
+    'Heading': "Title",
     'URL/Link': "Вставте посилання",
     'Image': "Зображення",
     'List': "Список",

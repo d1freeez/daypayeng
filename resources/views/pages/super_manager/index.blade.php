@@ -48,7 +48,7 @@
                                                 <td>{{ $item->full_name }}</td>
                                                 <td>{{ $item->email }}</td>
                                                 <td>
-                                                    {{ $item->is_active == 1 ? 'Активный' : 'Не активен' }}
+                                                    {{ $item->is_active == 1 ? 'Active' : 'Не активен' }}
                                                     <span class="kt-badge {{ $item->is_active == 1 ? 'kt-badge--success' : 'kt-badge--danger' }} kt-badge--dot"></span>
                                                 </td>
                                                 <td>{{ $item->created_at->diffForHumans() }}</td>

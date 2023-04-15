@@ -20,7 +20,7 @@
                             <div class="kt-section kt-section--first">
                                 <div class="kt-section__body row">
                                     <div class="form-group col-md-12 @error('title') validated @enderror">
-                                        <label for="offer_title">Заголовок <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
+                                        <label for="offer_title">Title <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
                                         <input class="form-control @error('title') is-invalid @enderror" type="text" id="offer_title" name="title" >
                                         @error('title')
                                             <div class="valid-feedback">{{ $message }}</div>

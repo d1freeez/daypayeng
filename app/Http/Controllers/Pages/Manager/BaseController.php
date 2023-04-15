@@ -22,7 +22,7 @@ class BaseController extends Controller
     public function index(): View
     {
         return view('pages.manager.index', [
-            'title' => 'Список менеджеров',
+            'title' => 'Managers list',
             'items' => Manager::query()->with('company')->filterByRole()->filter()->latest()->paginate(24),
             'companies' => LibCompany::all()
         ]);
@@ -36,7 +36,7 @@ class BaseController extends Controller
     public function create(): View
     {
         return view('pages.manager.create', [
-            'title' => 'Создание элемента в списке менеджеров',
+            'title' => 'Creating an item in the managers list',
             'companies' => LibCompany::all()
         ]);
     }
@@ -51,7 +51,7 @@ class BaseController extends Controller
     public function store(StoreRequest $request, CreatesManagers $managersCreator): RedirectResponse
     {
         $item = $managersCreator->create($request->validated());
-        toastSuccess('Новый элемент #' . $item->id . ' в список менеджеров успешно добавлен');
+        toastSuccess('New element #' . $item->id . ' has successfully addded');
 
         return redirect()->route('managers.index');
     }
@@ -65,7 +65,7 @@ class BaseController extends Controller
     public function edit(Manager $manager): View
     {
         return view('pages.manager.update', [
-            'title' => 'Изменение элемента в списке менеджеров',
+            'title' => 'Edit element at managers list',
             'item' => $manager,
             'companies' => LibCompany::all()
         ]);
@@ -96,7 +96,7 @@ class BaseController extends Controller
     public function destroy(Manager $manager): RedirectResponse
     {
         $manager->delete();
-        toastSuccess('Элемент из списка менеджеров успешно удален');
+        toastSuccess('Element has successfully deleted');
 
         return redirect()->route('managers.index');
     }
