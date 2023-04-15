@@ -181,7 +181,7 @@
                 <div class="form__block_list">
                     <div class="form__block_left">
                         <div>
-                            <h3>Приведите своего работодателя</h3>
+                            <h3>Bring your employer</h3>
                             <div class="form__block_left_description">
                                 <p>Большинство из вас хотели бы получать зарплату тогда, когда это удобно или необходимо.
 
