@@ -1,18 +1,17 @@
 <?php
 
 return [
-    'countries_list' => 'Список стран',
-    'regions_list' => 'Список областей',
-    'cities_list' => 'Список городов',
-    'holiday' => 'Выходные дни',
-    'companies_list' => 'Список компаний',
-    'departments_list' => 'Список отделений',
-    'Departments' => 'Отделение',
-    'employee_list' => 'Список работников',
-    'manager_list' => 'Список менеджеров',
-    'super_manager_list' => 'Список супер менеджеров',
-    'request_advance_list' => 'Список запросов на выплату',
-    'payments_archive' => 'Архив выплат',
-    'user_tariff_list' => 'Список приобретенных тарифов',
-    'bring_list' => 'Список приглашений работодателя'
+    'countries_list' => 'List of countries',
+    'regions_list' => 'List of regions',
+    'cities_list' => 'List of cities',
+    'holiday' => 'Holiday',
+    'companies_list' => 'List of the companies',
+    'departments_list' => 'List of the departments',
+    'Departments' => 'Departments',
+    'employee_list' => 'List of the employees',
+    'manager_list' => 'List of the managers',
+    'super_manager_list' => 'List of the super managers',
+    'request_advance_list' => 'List of the payment requests',
+    'user_tariff_list' => 'List of purchased tariffs',
+    'bring_list' => 'Employer Invitation List'
 ];

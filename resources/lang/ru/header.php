@@ -13,14 +13,14 @@ return [
     |
     */
 
-    'company' => 'компания',
-    'Company' => 'Компания',
-    'profile' => 'Профиль',
-    'settings' => 'Настройки аккаунта',
-    'update_company_data' => "Обновить данные компании",
-    'see_all_documents' => 'Посмотреть все документы',
-    'logout' => 'Выйти',
-    'bank_cards' => 'Банковские карты',
-    'add_bank_card' => 'Добавить банковскую карту'
+    'company' => 'company',
+    'Company' => 'Company',
+    'profile' => 'Profile',
+    'settings' => 'Account settings and other',
+    'update_company_data' => "Update company's data",
+    'see_all_documents' => 'See all documents',
+    'logout' => 'Logout',
+    'bank_cards' => 'Bank cards',
+    'add_bank_card' => 'Add a bank card'
 
 ];

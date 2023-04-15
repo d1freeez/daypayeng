@@ -23,8 +23,8 @@
                                         <label for="for_who">Для кого <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
                                         <select name="is_legal" id="for_who" class="form-control">
                                             <option value="x">Для кого?</option>
-                                            <option value="0">Для работников</option>
-                                            <option value="1">Для работадателей</option>
+                                            <option value="0">For employee</option>
+                                            <option value="1">For employer</option>
                                         </select>
                                     </div>
                                     <div class="form-group col-md-12 @error('parent_id') validated @enderror">

@@ -10,15 +10,15 @@
                     <li><span>/</span></li>
                     <li><nuxt-link to="/question">FAQ</nuxt-link></li>
                     <li><span>/</span></li>
-                    <li><a>Для работников</a></li>
+                    <li><a>For employee</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="content">
             <div class="container">
-                <h3>Есть вопрос?</h3>
-                <p>Вот наши FAQ, чтобы помочь вам в дальнейшем, однако, если мы пропустили то, что вы хотите знать, свяжитесь с нами ниже или свяжитесь с нами здесь.</p>
+                <h3>Do you have a question?</h3>
+                <p>Here are our FAQs to help you further, however, if we missed something you want to know, contact us below or contact us here.</p>
 
                 <div class="accordion">
                     <div class="__block" v-for="r of data">

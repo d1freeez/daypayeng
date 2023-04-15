@@ -47,7 +47,7 @@
                                                 <th scope="row">{{ $n++ }}</th>
                                                 <td>{{ $item->question }}</td>
                                                 <td>
-                                                    {{ $item->is_legal ? 'Для работодателей' : 'Для работников' }}
+                                                    {{ $item->is_legal ? 'Для работодателей' : 'For employee' }}
                                                     <span class="kt-badge {{ $item->is_legal ? 'kt-badge--success' : 'kt-badge--danger' }} kt-badge--dot"></span>
                                                 </td>
                                                 <td>{{ $item->parent ? $item->parent->title : __('table.not_found') }}</td>

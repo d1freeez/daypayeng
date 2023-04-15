@@ -1,43 +1,45 @@
 <?php
+
 return [
+
     /*
     |--------------------------------------------------------------------------
-    | Языковые ресурсы аутентификации
+    | Authentication Language Lines
     |--------------------------------------------------------------------------
     |
-    | Следующие языковые ресурсы используются во время аутентификации для
-    | различных сообщений которые мы должны вывести пользователю на экран.
-    | Вы можете свободно изменять эти языковые ресурсы в соответствии
-    | с требованиями вашего приложения.
+    | The following language lines are used during authentication for various
+    | messages that we need to display to the user. You are free to modify
+    | these language lines according to your application's requirements.
     |
     */
-    /*'failed'   => 'Имя пользователя и пароль не совпадают.',
-    'throttle' => 'Слишком много попыток входа. Пожалуйста, попробуйте еще раз через :seconds секунд.',
-    'verify_code_sent' => 'На вашу почту отправлено письмо.',
-    'after' => 'После',
-    'will_be_redirect' => 'секунд вы будете перенаправлены на страницу входа.',
-    'dont_wait' => "Если не хотите ждать, можете перейти по этой ссылке",
-    'verified_congratulations' => "Поздравляю! Ваша почта подтверждена и отправлено на проверку. Наши менеджеры свяжутся с вами в ближайшее время.",
-    'redirect_to_login' => 'Перейти на страницу входа',
-    'dont_have_account' => "Нет учетной записи?",
-    'employer_registration' => 'Регистрация работодателя',
-    'login_to_account' => 'Sign in',
-    'password' => 'password',
-    'forgot_pass' => 'Забыли Ваш пароль ?',
-    'login' => 'Войти',
-    'back' => 'Назад',
-    'after_registration_send' => 'После регистрации вы получите электронное письмо с подтверждением.',
-    'password_confirmation' => 'Подтверждение пароля',
-    'employee_count' => 'Примерное количество сотрудников',
-    'i_give' => 'Я даю',
-    'consent_personal_data' => 'согласие на обработку персональных данных',
-    'and_accept' => 'и принять',
-    'privacy_policy' => 'политика конфиденциальности',
-    'public_offer' => 'публичная оферта',
-    'register' => 'Регистрация',
-    'and' => 'и',
-    'reset_password' => 'Сброс пароля',
-    'send_req' => 'Послать запрос',
-    'create_password_to_account' => 'Придумайте пароль для входа в аккаунт',
-    'if_dont_want_change_password' => 'Если вы не хотите менять пароль, оставьте поле пустым.'*/
+
+    'failed' => 'These credentials do not match our records.',
+    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'verify_code_sent' => 'A letter has been sent to your mail.',
+    'after' => 'After',
+    'will_be_redirect' => 'seconds you will be redirected to the login page.',
+    'dont_wait' => "If you don't want to wait, you can follow this link",
+    'verified_congratulations' => "Congratulations! Your mail has been confirmed and sent for verification. Our managers will contact you as soon as possible.",
+    'redirect_to_login' => 'Go to login page',
+    'dont_have_account' => "Don't have an account?",
+    'employer_registration' => 'Employer registration',
+    'login_to_account' => 'Login to your account',
+    'password' => 'Password',
+    'forgot_pass' => 'Forgot your password ?',
+    'login' => 'Login',
+    'back' => 'Back',
+    'after_registration_send' => 'After registration, you will receive a confirmation email.',
+    'password_confirmation' => 'Password confirmation',
+    'employee_count' => 'Approximate number of employees',
+    'i_give' => 'I give',
+    'consent_personal_data' => 'consent to the processing of personal data',
+    'and_accept' => 'and accept',
+    'privacy_policy' => 'privacy policy',
+    'public_offer' => 'public offer',
+    'register' => 'Register',
+    'and' => 'and',
+    'reset_password' => 'Reset password',
+    'send_req' => 'Send request',
+    'create_password_to_account' => 'Create a password for your account login',
+    'if_dont_want_change_password' => 'If you do not want to change the password, then leave the field blank'
 ];

@@ -23,19 +23,19 @@
         <div class="content">
             <div class="container">
                 <div class="question__description">
-                    <h3>Есть вопрос?</h3>
-                    <p>Вот наши FAQ, чтобы помочь вам в дальнейшем, однако, если мы пропустили то,
+                    <h3>Do you have a question?</h3>
+                    <p>Here are our FAQs to help you further, однако, если мы пропустили то,
                         что
                         вы хотите знать, свяжитесь с нами ниже или свяжитесь с нами здесь.</p>
                 </div>
                 <div class="question__list_header ">
                     <div class="question__list_header_item " v-on:click="question_type='employee'"
                          :class="question_type=='employee'?'-active':''">
-                        Для работников
+                        For employee
                     </div>
                     <div class="question__list_header_item" v-on:click="question_type='buisness'"
                          :class="question_type=='buisness'?'-active':''">
-                        Для работадателей
+                        For employer
                     </div>
                 </div>
                 <div class="question__list_block" :class="question_type=='employee'?'-active':''">

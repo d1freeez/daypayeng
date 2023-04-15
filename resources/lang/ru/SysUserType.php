@@ -8,10 +8,10 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'admin' => 'Админ',
-    'director' => 'Employer',
-    'manager' => 'Менеджер',
-    'employee' => 'Работник',
-    'super_manager' => 'Супер менеджер'
+    'admin' => 'Admin',
+    'director' => 'Director',
+    'manager' => 'Manager',
+    'employee' => 'Employee',
+    'super_manager' => 'Super Manager'
 
 ];
