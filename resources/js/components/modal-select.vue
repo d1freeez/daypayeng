@@ -9,7 +9,7 @@
                     <img src="/images/smart.png" alt="">
                 </div>
 
-                <h3>Добро пожаловать в DayPay!</h3>
+                <h3>Добро пожаловать в Web2Cash!</h3>
                 <p>Выберите интересующий вас раздел</p>
                 <div class="row">
                     <div class="col-md-6" @click="modal = false">

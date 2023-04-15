@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>DayPay | @isset($title) {{ $title }} @endisset  </title>
+    <title>Web2Cash | @isset($title) {{ $title }} @endisset  </title>
     <meta content="{{ csrf_token() }}" name="csrf-token">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ asset('fonts/Qanelos/stylesheet.css') }}" rel="stylesheet" type="text/css">

@@ -31,7 +31,7 @@ class DashboardActivationHasChanged extends Notification
     {
         return (new MailMessage)
                     ->subject('Активность вашего аккаунта был изменен.')
-                    ->lineIf($notifiable->is_active, 'Поздравляем! Ваш аккаунт активирован вы можете войти в свой аккаунт в системе "DayPay".')
+                    ->lineIf($notifiable->is_active, 'Поздравляем! Ваш аккаунт активирован вы можете войти в свой аккаунт в системе "Web2Cash".')
                     ->lineIf(!$notifiable->is_active, 'Извиняемся! К сожалению ваш аккаунт стал не активным. Вы можете обратиться нам ответив на сообщение.')
                     ->line('Благодарим вас за использование нашего сервиса!');
     }

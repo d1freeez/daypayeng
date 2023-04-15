@@ -125,7 +125,7 @@
                                 <img src="/images/icons/ic-purple-light.png">
                             </div>
                             <div class="main__idea_title">
-                                Так возникла идея создать <br>DAYPAY
+                                Так возникла идея создать <br>Web2Cash
                             </div>
                         </div>
                     </div>
@@ -138,14 +138,14 @@
                         <div class="what_is__flex">
                             <div class="what_is__description">
                                 <div>
-                                    <span>Что такое DayPay?</span>
-                                    <p>DayPay - это сервис, который предоставляет вам возможность управлять своей
+                                    <span>Что такое Web2Cash?</span>
+                                    <p>Web2Cash - это сервис, который предоставляет вам возможность управлять своей
                                         заработной
                                         платой.</p>
                                     <p>Вы можете в любой момент получить заработную плату за отработанный период
                                         через
                                         сервис
-                                        DayPay.</p>
+                                        Web2Cash.</p>
                                     <a href="#form">
                                         Узнать подробности
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -208,7 +208,7 @@
                                 <h5>Экономию</h5>
                                 <p>Экономите зарплатный бюджет! Ваша компания получит вознаграждение за
                                     использование
-                                    сервиса DayPay.</p>
+                                    сервиса Web2Cash.</p>
                             </div>
 
                         </div>
@@ -229,7 +229,7 @@
                                     Оптимизация бухгалтерии
                                 </div>
                                 <div class="__requirements_item_description">
-                                    Сервис DayPay интегрируется с программой 1C:предприятие.
+                                    Сервис Web2Cash интегрируется с программой 1C:предприятие.
                                 </div>
                             </div>
                         </div>
@@ -304,9 +304,9 @@
                         <div class="form__block_list">
                             <div class="form__block_left">
                                 <div>
-                                    <h3>Подключи DayPay в своей компании</h3>
+                                    <h3>Подключи Web2Cash в своей компании</h3>
                                     <div class="form__block_left_description">
-                                        <p>Большинство работников хотели бы получать зарплату тогда, когда им это удобно. DayPay заберет на себя головную боль – выдачу авансов вашим работникам. Заполните форму ниже, и мы свяжемся с вами, чтобы подключить DayPay к вашей компании.</p>
+                                        <p>Большинство работников хотели бы получать зарплату тогда, когда им это удобно. Web2Cash заберет на себя головную боль – выдачу авансов вашим работникам. Заполните форму ниже, и мы свяжемся с вами, чтобы подключить Web2Cash к вашей компании.</p>
                                     </div>
                                 </div>
 
@@ -380,7 +380,7 @@
                                                 </div>
 
                                                 <div class="__description">
-                                                    NUR-SULTAN – Future Capital Technologies has launched DayPay, a
+                                                    NUR-SULTAN – Future Capital Technologies has launched Web2Cash, a
                                                     service that allows employees to receive their salary any day of the
                                                     month. The new programme will help...
                                                 </div>

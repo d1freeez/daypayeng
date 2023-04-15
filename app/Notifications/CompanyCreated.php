@@ -33,12 +33,12 @@ class CompanyCreated extends Notification
     {
         $route = $notifiable->is_active ? 'set-password' : 'verify-finish';
         return (new MailMessage())
-            ->subject('Подтвердите аккаунт в сервисе "DayPay"')
+            ->subject('Подтвердите аккаунт в сервисе "Web2Cash"')
             ->line(
-                'В сервисе DayPay для вас создали компанию и связали эту почту.'
+                'В сервисе Web2Cash для вас создали компанию и связали эту почту.'
             )
             ->line(
-                'Необходимо подтвердить аккаунт в сервисе DayPay по ссылке внизу.'
+                'Необходимо подтвердить аккаунт в сервисе Web2Cash по ссылке внизу.'
             )
             ->action(
                 'Подтвердить',

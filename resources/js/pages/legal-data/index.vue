@@ -3,7 +3,7 @@
         <div class="container">
             <div class="legal__data">
                 <ul>
-                    <li><a href="/files/publichnaya_oferta_daypay_220223.pdf" download>Offer Agreement</a></li>
+                    <li><a href="/files/publichnaya_oferta_Web2Cash_220223.pdf" download>Offer Agreement</a></li>
                     <li><a href="/files/politika-konfidencialnosti.pdf" download>Privacy
                         Policy</a>
                     </li>

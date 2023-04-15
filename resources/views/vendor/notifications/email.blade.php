@@ -40,7 +40,7 @@
 {{ $salutation }}
 @else
 С уважением,<br>
-DayPay
+Web2Cash
 @endif
 
 {{-- Subcopy --}}

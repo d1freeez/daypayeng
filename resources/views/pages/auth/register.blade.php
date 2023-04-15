@@ -4,7 +4,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>DayPay | {{$title}} </title>
+    <title>Web2Cash | {{$title}} </title>
     <meta name="description" content="Login page example">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -140,7 +140,7 @@
                 class="kt-grid__item kt-grid__item--order-tablet-and-mobile-2 kt-grid kt-grid--hor kt-login__aside kt-hidden-mobile"
                 style="background-image: url(/images/banner/login-banner.png); background-position:center;">
                 <div class="kt-grid__item">
-                    <a href="https://daypay.kz/" class="kt-link kt-link--state kt-link--danger kt-font-bolder">
+                    <a href="https://Web2Cash.kz/" class="kt-link kt-link--state kt-link--danger kt-font-bolder">
                         <img src="/images/logo/logo-white.png" style="width: 175px;">
                     </a>
                 </div>

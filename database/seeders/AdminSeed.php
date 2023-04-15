@@ -20,7 +20,7 @@ class AdminSeed extends Seeder
             'name' => 'User',
             'p_name' => 'Admin',
             'email' => 'kerei.khan@mail.ru',
-            'password' => bcrypt('daypay2022daypay'),
+            'password' => bcrypt('Web2Cash2022Web2Cash'),
             'type' => UserType::ADMIN,
             'is_active' => true
         ]);

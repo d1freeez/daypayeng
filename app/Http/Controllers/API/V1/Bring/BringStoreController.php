@@ -17,7 +17,7 @@ class BringStoreController extends Controller
         return response()->json([
             'status_code' => Response::HTTP_CREATED,
             'data' => $bring,
-            'message' => 'Ваша заявка принята! В скором времени мы свяжемся с компанией и подключим DayPay!'
+            'message' => 'Ваша заявка принята! В скором времени мы свяжемся с компанией и подключим Web2Cash!'
         ], Response::HTTP_CREATED);
     }
 }

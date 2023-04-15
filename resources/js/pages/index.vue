@@ -71,7 +71,7 @@
                 <div class="light__blue_out">
                     <div class="light__blue">
                         <div class="light__blue__img"><img src="/images/icons/light-blue.png"></div>
-                        <div class="light__blue__description">С сервисом DayPay деньги за отработанный период можно
+                        <div class="light__blue__description">С сервисом Web2Cash деньги за отработанный период можно
                             получить в любой момент!
                         </div>
                         <div class="light__blue__btns">
@@ -106,13 +106,13 @@
                                 name="fadeLeft"
                             >
                                 <div>
-                                    <span>Что такое DayPay?</span>
-                                    <p>DayPay - это сервис, который предоставляет вам возможность управлять своей
+                                    <span>Что такое Web2Cash?</span>
+                                    <p>Web2Cash - это сервис, который предоставляет вам возможность управлять своей
                                         заработной
                                         платой.</p>
                                     <p>Вы можете в любой момент получить заработную плату за отработанный период через
                                         сервис
-                                        DayPay.</p>
+                                        Web2Cash.</p>
                                 </div>
                             </Transition>
 
@@ -185,7 +185,7 @@
                             <div class="form__block_left_description">
                                 <p>Большинство из вас хотели бы получать зарплату тогда, когда это удобно или необходимо.
 
-                                    Заполните эту форму, и мы анонимно свяжемся с вашим работодателем, чтобы подключить DayPay к вашей компании.</p>
+                                    Заполните эту форму, и мы анонимно свяжемся с вашим работодателем, чтобы подключить Web2Cash к вашей компании.</p>
                             </div>
                         </div>
 
@@ -257,7 +257,7 @@
                                         </div>
 
                                         <div class="__description">
-                                            NUR-SULTAN – Future Capital Technologies has launched DayPay, a service that
+                                            NUR-SULTAN – Future Capital Technologies has launched Web2Cash, a service that
                                             allows employees to receive their salary any day of the month. The new
                                             programme will help...
                                         </div>

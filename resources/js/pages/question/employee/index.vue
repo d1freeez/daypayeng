@@ -46,7 +46,7 @@
         },
 
         async mounted() {
-            await this.$axios.$get('http://dashboard.daypay.kz/api/faq/parent?is_employee=1')
+            await this.$axios.$get('http://dashboard.Web2Cash.kz/api/faq/parent?is_employee=1')
                 .then(data => {
                     this.employee = data
                 })

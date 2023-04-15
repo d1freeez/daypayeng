@@ -14,7 +14,7 @@
                         <div class="img">
                             <img src="/images/icons/mess.svg" alt="">
                         </div>
-                        <a href="mailto:info@daypay.kz">info@wage2.cash</a>
+                        <a href="mailto:info@Web2Cash.kz">info@wage2.cash</a>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@
                             <div class="img">
                                 <img src="/images/icons/mess.svg" alt="">
                             </div>
-                            <a href="mailto:info@daypay.kz">info@wage2.cash</a>
+                            <a href="mailto:info@Web2Cash.kz">info@wage2.cash</a>
                         </div>
                     </div>
                 </div>

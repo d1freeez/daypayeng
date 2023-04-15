@@ -40,8 +40,8 @@ class CompanyInvitation extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-                    ->subject('Для вас создан аккаунт в сервисе управления заработной платой "DayPay"')
-                    ->line('Ваша компания создала для вас аккаунт в сервисе управления заработной платой "DayPay".')
+                    ->subject('Для вас создан аккаунт в сервисе управления заработной платой "Web2Cash"')
+                    ->line('Ваша компания создала для вас аккаунт в сервисе управления заработной платой "Web2Cash".')
                     ->line('Пожалуйста, придумайте пароль для вашего аккаунта по ссылке ниже.')
                     ->action('Перейти', route('set-password', ['token' => $notifiable->email_token]))
                     ->line('Благодарим вас за использование нашего сервиса!');

@@ -14,7 +14,7 @@ class IndexController extends Controller
         return view('pages.dashboard.employee', [
             'accounts' => $auth_user->accounts()->latest()->get(),
             'card' => $auth_user->cards()->first(),
-            'title' => 'Кабинет работника'
+            'title' => 'Employee Cabinet'
         ]);
     }
 }
