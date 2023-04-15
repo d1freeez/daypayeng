@@ -40,7 +40,7 @@
                         <div class="col-md-3">
                             <ul>
                                 <li>
-                                    <a href="/">Главная</a>
+                                    <a href="/">Main</a>
                                 </li>
                                 <li><a href="/#what_is__section">About us</a></li>
                                 <li><a href="/legal-data">Legal information</a></li>

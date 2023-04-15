@@ -52,7 +52,7 @@ class MainController extends Controller
     {
         $this->authorize('update', $company);
         return view('pages.company.update', [
-            'title' => 'Редактирование информации о компании',
+            'title' => 'Редактирование информации About us',
             'item' => $company
         ]);
     }

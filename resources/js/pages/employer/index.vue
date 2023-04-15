@@ -112,7 +112,7 @@
                             </div>
                             <div class="main__problem">
                                 <div class="main__problem_title"><img src="/images/icons/ic-from-right.png"></div>
-                                <div class="main__problem_subtitle">РАБОТОДАТЕЛЬ</div>
+                                <div class="main__problem_subtitle">Employer</div>
                                 <div class="main__problem_description">который не может выдавать зарплату в любой
                                     момент
                                 </div>

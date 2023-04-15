@@ -132,19 +132,19 @@
                         <li class="kt-menu__item {{ $namespace == 'App\Http\Controllers\Pages\Dashboard' ? 'kt-menu__item--here' : '' }}" id="kt_menu_item1">
                             <a href="{{ route('login') }}" class="kt-menu__link">
                                 <i class="kt-menu__link-icon flaticon2-protection"></i>
-                                <span class="kt-menu__link-text">Главная</span>
+                                <span class="kt-menu__link-text">Main</span>
                             </a>
                         </li>
                         <li class="kt-menu__item  {{ $namespace == 'App\Http\Controllers\Pages\AdvanceAccount' ? 'kt-menu__item--here' : '' }}" id="kt_menu_item2">
                             <a href="{{ route('advance-account-list') }}" class="kt-menu__link">
                                 <i class="kt-menu__link-icon flaticon-list-1"></i>
-                                <span class="kt-menu__link-text">История выплат</span>
+                                <span class="kt-menu__link-text">Payments history</span>
                             </a>
                         </li>
                         <li class="kt-menu__item  {{ $namespace == 'App\Http\Controllers\Pages\Lib\Offer' ? 'kt-menu__item--here' : '' }}" id="kt_menu_item2">
                             <a href="{{ route('offer_list_employee') }}" class="kt-menu__link">
                                 <i class="kt-menu__link-icon flaticon-file-2"></i>
-                                <span class="kt-menu__link-text">Документы</span>
+                                <span class="kt-menu__link-text">Documents</span>
                             </a>
                         </li>
                     </ul>
@@ -201,10 +201,10 @@
                                     </div>
                                     <div class="kt-notification__item-details">
                                         <div class="kt-notification__item-title kt-font-bold">
-                                            Профиль
+                                            Profile
                                         </div>
                                         <div class="kt-notification__item-time">
-                                            Настройки аккаунта и другое
+                                            Account settings and etc.
                                         </div>
                                     </div>
                                 </a>

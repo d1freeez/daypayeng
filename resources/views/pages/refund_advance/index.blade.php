@@ -24,7 +24,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <label for="company_select">По компании работника</label>
+                                        <label for="company_select">ПAbout us работника</label>
                                         <select class="form-control m-select2" id="company_select" name="company_id">
                                             <option value="x">Выберите компанию</option>
                                             @foreach($companies as $company)

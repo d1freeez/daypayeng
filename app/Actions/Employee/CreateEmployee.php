@@ -30,7 +30,7 @@ class CreateEmployee implements CreatesEmployees
                 m_amount: $credentials['m_amount'],
                 weekdays: $company->is_six_day ? 6 : 5
             ),
-            'position' => 'Работник',
+            'position' => 'Employee',
             'type' => UserType::EMPLOYEES,
             'email_token' => bcrypt($credentials['email']),
             'is_active' => array_key_exists('is_active', $credentials),

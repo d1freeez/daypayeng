@@ -9,7 +9,7 @@ return [
     */
 
     'admin' => 'Админ',
-    'director' => 'Работодатель',
+    'director' => 'Employer',
     'manager' => 'Менеджер',
     'employee' => 'Работник',
     'super_manager' => 'Супер менеджер'

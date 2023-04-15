@@ -2,13 +2,13 @@
     <div>
         <div class="header">
             <div class="container">
-                <h1>ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h1>
+                <h1>FAQ</h1>
             </div>
             <div class="__path">
                 <ul>
-                    <li><nuxt-link to="/">Главная</nuxt-link></li>
+                    <li><nuxt-link to="/">Main</nuxt-link></li>
                     <li><span>/</span></li>
-                    <li><nuxt-link to="/question">Часто задаваемые вопросы</nuxt-link></li>
+                    <li><nuxt-link to="/question">FAQ</nuxt-link></li>
                     <li><span>/</span></li>
                     <li><a>Для работников</a></li>
                 </ul>
@@ -18,7 +18,7 @@
         <div class="content">
             <div class="container">
                 <h3>Есть вопрос?</h3>
-                <p>Вот наши часто задаваемые вопросы, чтобы помочь вам в дальнейшем, однако, если мы пропустили то, что вы хотите знать, свяжитесь с нами ниже или свяжитесь с нами здесь.</p>
+                <p>Вот наши FAQ, чтобы помочь вам в дальнейшем, однако, если мы пропустили то, что вы хотите знать, свяжитесь с нами ниже или свяжитесь с нами здесь.</p>
 
                 <div class="question_list row">
                     <div class="col-md-6" v-for="emp of employee">

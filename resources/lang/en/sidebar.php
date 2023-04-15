@@ -26,7 +26,7 @@ return [
     'managers' => 'Managers',
     'super_managers' => 'Super managers',
     'payment_requests' => 'Payment requests',
-    'payments_archive' => 'Архив выплат',
+    'payments_archive' => 'Payments archive',
     'tariffs' => 'Tariffs',
     'list_of_purchased_tariffs' => 'List of purchased tariffs',
     'employer_invitation' => 'Employer invitation',

@@ -4,18 +4,18 @@
         <div class="question__header">
             <div class="question__header_title">
                 <div class="container">
-                    <h1>Часто задаваемые вопросы</h1>
+                    <h1>FAQ</h1>
                 </div>
                 <div class="__path">
                     <ul>
-                        <li><a href="/">Главная</a></li>
+                        <li><a href="/">Main</a></li>
                         <li class="__pather">
                             <svg width="7" height="11" viewBox="0 0 7 11" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 1.25L5.5 5.75L1.5 9.75" stroke="white"/>
                             </svg>
                         </li>
-                        <li><span>Часто задаваемые вопросы</span></li>
+                        <li><span>FAQ</span></li>
                     </ul>
                 </div>
             </div>
@@ -24,7 +24,7 @@
             <div class="container">
                 <div class="question__description">
                     <h3>Есть вопрос?</h3>
-                    <p>Вот наши часто задаваемые вопросы, чтобы помочь вам в дальнейшем, однако, если мы пропустили то,
+                    <p>Вот наши FAQ, чтобы помочь вам в дальнейшем, однако, если мы пропустили то,
                         что
                         вы хотите знать, свяжитесь с нами ниже или свяжитесь с нами здесь.</p>
                 </div>
