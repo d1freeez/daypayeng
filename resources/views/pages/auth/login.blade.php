@@ -142,8 +142,8 @@
             <div class="login__header_right_left -desktop">
             </div>
             <div class="login__header_right_right -desktop">
-                <a href="wage2.cash/#rec571127966"> Sign Up?</a>
-                <a href="wage2.cash/#rec571128823" class="-last"> Employer Registration</a>
+                <a href="https://wage2.cash/#rec571127966"> Sign Up?</a>
+                <a href="https://wage2.cash/#rec571128823" class="-last"> Employer Registration</a>
             </div>
             <div class="login__header_right_right -mobile">
                 <a href="'/'">
