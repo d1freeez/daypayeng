@@ -198,7 +198,7 @@
 									<!--begin::Action-->
 									<div class="kt-login__actions">
 										<a href="{{ route('login') }}" class="kt-link kt-login__link-forgot">
-											Войти
+											Sign in
 										</a>
 										<button type="submit" class="btn btn-primary btn-elevate kt-login__btn-primary">Зарегистрировать</button>
 									</div>

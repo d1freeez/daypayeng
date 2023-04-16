@@ -142,12 +142,12 @@
             <div class="login__header_right_left -desktop">
             </div>
             <div class="login__header_right_right -desktop">
-                <a href="#"> Registration?</a>
-                <a href="/employer#form" class="-last"> Employer Registration</a>
+                <a href="wage2.cash/#rec571127966"> Sign Up?</a>
+                <a href="wage2.cash/#rec571128823" class="-last"> Employer Registration</a>
             </div>
             <div class="login__header_right_right -mobile">
                 <a href="'/'">
-                    Войти
+                    Sign in
                     <svg width="17" height="20" viewBox="0 0 17 20" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_188:514" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="12"
