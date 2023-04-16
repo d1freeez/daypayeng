@@ -146,7 +146,7 @@
                 <a href="https://wage2.cash/#rec571128823" class="-last"> Employer Registration</a>
             </div>
             <div class="login__header_right_right -mobile">
-                <a href="'/'">
+                <a href="'/login'">
                     Sign in
                     <svg width="17" height="20" viewBox="0 0 17 20" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
