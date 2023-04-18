@@ -48,7 +48,7 @@ class StoreRequest extends FormRequest
     public function attributes(): array
     {
         return [
-            'email' => 'Электронная почта',
+            'email' => 'Email',
             'full_name' => 'Полное имя',
             'iin' => 'ИИН',
             'company_id' => 'Компания',

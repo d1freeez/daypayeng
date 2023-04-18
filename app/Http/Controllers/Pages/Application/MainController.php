@@ -19,7 +19,7 @@ class MainController extends Controller
     {
         $this->authorize('viewAny', Application::class);
         return view('pages.application.index', [
-            'title' => 'Список заявок на смену карты',
+            'title' => 'List of applications to change the card',
             'items' => Application::with('user')->latest()->paginate(24)
         ]);
     }

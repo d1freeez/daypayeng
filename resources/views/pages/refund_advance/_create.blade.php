@@ -14,7 +14,7 @@
                         <input type="text" id="refund_advance_phone" class="form-control" name="phone" required>
                     </div>
                     <div class="form-group">
-                        <label for="refund_advance_content" class="form-control-label">Причина</label>
+                        <label for="refund_advance_content" class="form-control-label">Reason</label>
                         <textarea name="content" id="refund_advance_content" cols="30" rows="10" class="form-control" required></textarea>
                     </div>
                 </div>

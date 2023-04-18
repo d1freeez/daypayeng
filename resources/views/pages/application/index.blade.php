@@ -22,7 +22,7 @@
                                         <tr>
                                             <th>#</th>
                                             <th>{{ __('table.full_name') }}</th>
-                                            <th>Электронная почта</th>
+                                            <th>Email</th>
                                             <th>Phone Number</th>
                                             <th>{{ __('table.actions') }}</th>
                                         </tr>

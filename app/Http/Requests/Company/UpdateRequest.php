@@ -59,7 +59,7 @@ class UpdateRequest extends FormRequest
     {
         return [
             'name' => 'Наименование компании',
-            'email' => 'Электронная почта',
+            'email' => 'Email',
             'bin' => 'БИН',
             'rg_date' => 'Дата регистрации',
             'full_name' => 'Полное имя'

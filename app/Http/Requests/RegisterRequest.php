@@ -44,7 +44,7 @@ class RegisterRequest extends FormRequest
     {
         return [
             'name' => 'Наименование компании',
-            'email' => 'Электронная почта',
+            'email' => 'Email',
             'password' => 'Пароль для входа',
             'bin' => 'БИН',
             'rg_date' => 'Дата регистрации',

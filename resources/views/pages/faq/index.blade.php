@@ -30,9 +30,9 @@
                                         <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Вопрос</th>
-                                            <th>Для кого</th>
-                                            <th>Категория</th>
+                                            <th>Question</th>
+                                            <th>For who</th>
+                                            <th>Category</th>
                                             <th>{{ __('table.created_at') }}</th>
                                             <th>{{ __('table.updated_at') }}</th>
                                             <th>{{ __('table.actions') }}</th>

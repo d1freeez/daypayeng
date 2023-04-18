@@ -47,7 +47,7 @@ class StoreRequest extends FormRequest
     {
         return [
             'full_name' => 'Полное имя',
-            'email' => 'Электронная почта',
+            'email' => 'Email',
             'password' => 'Пароль для входа'
         ];
     }

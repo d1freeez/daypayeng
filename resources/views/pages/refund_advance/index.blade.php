@@ -75,10 +75,10 @@
                                         <tr>
                                             <th>#</th>
                                             <th>Full Name of Employee</th>
-                                            <th>Компания работника</th>
+                                            <th>Company</th>
                                             <th>Phone Number</th>
-                                            <th>Причина</th>
-                                            <th>Возвратил</th>
+                                            <th>Reason</th>
+                                            <th>Returned</th>
                                             <th>{{ __('table.actions') }}</th>
                                             <th>{{ __('table.created_at') }}</th>
                                         </tr>

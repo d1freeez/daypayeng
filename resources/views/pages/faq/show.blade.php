@@ -19,7 +19,7 @@
                         <div class="kt-section kt-section--first">
                             <div class="kt-section__body row">
                                 <div class="form-group col-md-12">
-                                    <label for="faq_question">Вопрос <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
+                                    <label for="faq_question">Question <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
                                     <input class="form-control" type="text" id="faq_question" value="{{ $item->question }}" placeholder="Jhon Doe" name="full_name" disabled>
                                 </div>
                                 <div class="form-group col-md-12">

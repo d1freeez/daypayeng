@@ -51,7 +51,7 @@ class UpdateRequest extends FormRequest
     {
         return [
             'full_name' => 'Полное имя',
-            'email' => 'Электронная почта'
+            'email' => 'Email'
         ];
     }
 }

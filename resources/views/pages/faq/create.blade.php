@@ -20,24 +20,24 @@
                             <div class="kt-section kt-section--first">
                                 <div class="kt-section__body row">
                                     <div class="form-group col-md-12">
-                                        <label for="for_who">Для кого <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
+                                        <label for="for_who">For who <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
                                         <select name="is_legal" id="for_who" class="form-control">
-                                            <option value="x">Для кого?</option>
+                                            <option value="x">For who?</option>
                                             <option value="0">For employee</option>
                                             <option value="1">For employer</option>
                                         </select>
                                     </div>
                                     <div class="form-group col-md-12 @error('parent_id') validated @enderror">
-                                        <label for="faq_parent">Категория <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
+                                        <label for="faq_parent">Category <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
                                         <select name="parent_id" id="faq_parent" class="form-control @error('parent_id') is-invalid @enderror">
-                                            <option value="x">Выберите для кого</option>
+                                            <option value="x">Выберите For who</option>
                                         </select>
                                         @error('parent_id')
                                             <div class="valid-feedback">{{ $message }}</div>
                                         @enderror
                                     </div>
                                     <div class="form-group col-md-12 @error('question') validated @enderror">
-                                        <label for="faq_question">Вопрос <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
+                                        <label for="faq_question">Question <span class="kt-badge kt-badge--danger kt-badge--dot"></span></label>
                                         <input class="form-control @error('question') is-invalid @enderror" type="text" id="faq_question" name="question" >
                                         @error('question')
                                             <div class="valid-feedback">{{ $message }}</div>
