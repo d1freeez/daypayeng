@@ -13,7 +13,7 @@ use Illuminate\View\View;
 
 class MonthController extends Controller
 {
-    private string $title = 'Месяцы производственного календаря';
+    private string $title = 'Months of the production calendar';
 
     /**
      * Display a listing of the resource.
@@ -23,7 +23,7 @@ class MonthController extends Controller
     public function index(): View
     {
         return view('pages.lib.month.index', [
-            'title' => 'Месяцы производственного календаря',
+            'title' => 'Months of the production calendar',
             'items' => ProductionCalendar::query()
                 ->latest()
                 ->paginate(24)
@@ -43,7 +43,7 @@ class MonthController extends Controller
     ): RedirectResponse {
         $item = $createsProductionCalendars->create($request->validated());
         toastSuccess(
-            'Новый элемент № ' . $item->id . ' "' . $this->title . '" добавлен'
+            'New  element № ' . $item->id . ' "' . $this->title . '" added'
         );
         return back();
     }
@@ -77,7 +77,7 @@ class MonthController extends Controller
             $request->validated()
         );
         toastSuccess(
-            'Элемент № ' . $item->id . ' списка "' . $this->title . '" изменен'
+            'Element № ' . $item->id . ' from list edited to "' . $this->title . ''
         );
         return back();
     }
@@ -92,7 +92,7 @@ class MonthController extends Controller
     {
         $month->holidays()->delete();
         $month->delete();
-        toastSuccess('Элемент списка "' . $this->title . '" удален');
+        toastSuccess('Element from list "' . $this->title . '" deleted');
         return back();
     }
 }

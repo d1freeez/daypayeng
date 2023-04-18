@@ -24,7 +24,7 @@ class CityController extends Controller
         $this->authorize('view', LibCity::class);
 
         return view('pages.lib.city.index', [
-            'title' => 'Список городов',
+            'title' => 'List of cities',
             'items' => LibCity::query()
                 ->orderBy('created_at', 'desc')
                 ->with('region')
@@ -49,7 +49,7 @@ class CityController extends Controller
 
         $item = $createsCities->create($request->validated());
         toastSuccess(
-            'Новый элемент № ' . $item->id . ' из списка городов создан'
+            'Element № ' . $item->id . ' created for city list'
         );
 
         return back();
@@ -85,7 +85,7 @@ class CityController extends Controller
         $this->authorize('update', $city);
 
         $item = $updatesCities->update($city, $request->validated());
-        toastSuccess('Элемент № ' . $item->id . ' из списка городов изменен');
+        toastSuccess('Element № ' . $item->id . ' edited');
 
         return back();
     }
@@ -102,7 +102,7 @@ class CityController extends Controller
         $this->authorize('delete', $city);
 
         $city->delete();
-        toastSuccess('Элемент из списка городов удален');
+        toastSuccess('Element deleted');
 
         return back();
     }

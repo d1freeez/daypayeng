@@ -16,7 +16,7 @@ class HolidayController extends Controller
     /**
      * @var string
      */
-    private string $title = 'Выходные дни производственного календаря';
+    private string $title = 'Weekends of the production calendar';
 
     /**
      * Display a listing of the resource.

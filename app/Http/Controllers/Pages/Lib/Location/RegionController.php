@@ -24,7 +24,7 @@ class RegionController extends Controller
         $this->authorize('view', LibRegion::class);
 
         return view('pages.lib.region.index', [
-            'title' => 'Список областей',
+            'title' => 'Regions List',
             'items' => LibRegion::query()
                 ->with('country')
                 ->orderBy('created_at', 'desc')
@@ -49,7 +49,7 @@ class RegionController extends Controller
 
         $item = $createsRegions->create($request->validated());
         toastSuccess(
-            'Новый элемент № ' . $item->id . ' списка областей создан.'
+            'New № ' . $item->id . ' region created'
         );
 
         return back();
@@ -85,7 +85,7 @@ class RegionController extends Controller
         $this->authorize('update', $region);
 
         $item = $updatesRegions->update($region, $request->validated());
-        toastSuccess('Элемент № ' . $item->id . ' списка областей изменен');
+        toastSuccess('Element № ' . $item->id . ' from regions list edited');
 
         return back();
     }
@@ -102,7 +102,7 @@ class RegionController extends Controller
         $this->authorize('delete', $region);
 
         $region->delete();
-        toastSuccess('Элемент списка областей удален');
+        toastSuccess('Element from this list deleted');
 
         return back();
     }

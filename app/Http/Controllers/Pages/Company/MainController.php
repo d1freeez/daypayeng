@@ -31,7 +31,7 @@ class MainController extends Controller
         $this->authorize('create', LibCompany::class);
 
         return view('pages.company.create', [
-            'title' => 'Создать элемент в список компании'
+            'title' => 'Создать элемент вList of companies'
         ]);
     }
 

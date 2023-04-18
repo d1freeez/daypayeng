@@ -20,7 +20,7 @@ class CountryController extends Controller
 
         return view('pages.lib.country.index', [
             'items' => $items,
-            'title' => 'Список стран'
+            'title' => 'Countries list'
         ]);
     }
 
