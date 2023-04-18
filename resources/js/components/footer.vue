@@ -40,7 +40,7 @@
                         <div class="col-md-3">
                             <ul>
                                 <li>
-                                    <a href="/">Main</a>
+                                    <a href="http://wage2.cash/">Main</a>
                                 </li>
                                 <li><a href="/#what_is__section">About us</a></li>
                                 <li><a href="/legal-data">Legal information</a></li>

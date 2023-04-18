@@ -8,7 +8,7 @@
                 </div>
                 <div class="__path">
                     <ul>
-                        <li><a href="/">Main</a></li>
+                        <li><a href="http://wage2.cash/">Main</a></li>
                         <li class="__pather">
                             <svg width="7" height="11" viewBox="0 0 7 11" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">

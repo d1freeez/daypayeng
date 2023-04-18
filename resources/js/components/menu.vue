@@ -18,7 +18,7 @@
                             </a>
                         </template>
                         <template v-else="">
-                            <a href="/">
+                            <a href="http://wage2.cash/">
                                 <img src="/images/logo.png" alt="">
                             </a>
                         </template>
@@ -26,7 +26,7 @@
                     <div class="__list" v-if="!cabinet">
                         <ul v-if="type_link=='a'">
                             <li>
-                                <a href="/">
+                                <a href="http://wage2.cash/">
                                     For employee
                                 </a>
                             </li>
@@ -119,14 +119,14 @@
                         <span></span>
                     </div>
                     <div class="__logo">
-                        <a href="/">
+                        <a href="http://wage2.cash/">
                             <img src="/images/logo.png" alt="">
                         </a>
                     </div>
                 </div>
                 <ul>
                     <li @click="menuToggle()">
-                        <a href="/">Employee</a>
+                        <a href="http://wage2.cash/">Employee</a>
                     </li>
                     <li @click="menuToggle()">
                         <a href="/employer">Employer</a>

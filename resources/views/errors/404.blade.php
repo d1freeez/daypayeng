@@ -88,7 +88,7 @@
             <div class="card">
                 <img src="/images/preloader-loop.gif" alt="PayDay">
                 <h3>404</h3>
-                <a href="/">На главную</a>
+                <a href="http://wage2.cash/">На главную</a>
             </div>
         </div>
     </div>

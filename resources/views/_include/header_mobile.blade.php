@@ -1,7 +1,7 @@
 <!-- begin:: Header Mobile -->
 <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
     <div class="kt-header-mobile__logo">
-        <a href="/">
+        <a href="http://wage2.cash/">
             <img src="/images/logo/mobile-logo-white.png" style="width: 90px;" alt="Payday">
         </a>
     </div>

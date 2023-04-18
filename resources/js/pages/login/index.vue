@@ -10,7 +10,7 @@
                               stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
 
-                    <a href="/">
+                    <a href="http://wage2.cash/">
                         <img src="/images/logo.png" alt="">
                     </a>
                 </div>
