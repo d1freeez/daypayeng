@@ -22,7 +22,7 @@ class RefundApplicationController extends Controller
     public function index(): View
     {
         return view('pages.refund_advance.index', [
-            'title' => 'Список заявок на возврат комиссии',
+            'title' => 'List of applications for commission refund',
             'items' => RefundApplication::filter()->latest()->paginate(24),
             'employees' => Employee::filterByRole()->get(),
             'companies' => LibCompany::all()

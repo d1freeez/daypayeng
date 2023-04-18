@@ -7,7 +7,7 @@
                 <div class="kt-portlet">
                     <div class="kt-portlet__head">
                         <div class="kt-portlet__head-label">
-                            <h3 class="kt-portlet__head-title">Фильтрация</h3>
+                            <h3 class="kt-portlet__head-title">Sorting</h3>
                         </div>
                     </div>
                     <form class="kt-form" action="" method="get">
@@ -15,25 +15,25 @@
                             <div class="kt-section kt-section--first">
                                 <div class="kt-section__body row">
                                     <div class="form-group col-md-4">
-                                        <label for="employee_select">По имени работника</label>
+                                        <label for="employee_select">By employee name</label>
                                         <select class="form-control m-select2" id="employee_select" name="employee_id">
-                                            <option value="x">Выберите сотрдуника</option>
+                                            <option value="x">Select employee</option>
                                             @foreach($employees as $employee)
                                                 <option value="{{ $employee->id }}" {{ $employee->id == request()->get('employee_id') ? 'selected' : '' }}>{{ $employee->full_name }}</option>
                                             @endforeach
                                         </select>
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <label for="company_select">ПAbout us работника</label>
+                                        <label for="company_select">By employee name</label>
                                         <select class="form-control m-select2" id="company_select" name="company_id">
-                                            <option value="x">Выберите компанию</option>
+                                            <option value="x">Select company</option>
                                             @foreach($companies as $company)
                                                 <option value="{{ $company->id }}" {{ $company->id == request()->get('company_id') ? 'selected' : '' }}>{{ $company->name }}</option>
                                             @endforeach
                                         </select>
                                     </div>
                                     <div class="form-group col-md-4">
-                                        <label for="is_finished">По статусу</label>
+                                        <label for="is_finished">By status</label>
                                         <select name="is_finished" class="form-control" id="is_finished">
                                             <option value="x"></option>
                                             <option value="1" {{ request()->get('is_finished') == 1 ? 'selected' : '' }}>Возвращенные</option>
@@ -47,8 +47,8 @@
                             <div class="kt-form__actions">
                                 <div class="row">
                                     <div class="col-sm-12 text-right">
-                                        <button type="submit" class="btn btn-success">Фильтровать</button>
-                                        <a href="?" class="btn btn-secondary">Очистить</a>
+                                        <button type="submit" class="btn btn-success">Sort</button>
+                                        <a href="?" class="btn btn-secondary">Delete</a>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
                                         <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>ФИО работника</th>
+                                            <th>Full Name of Employee</th>
                                             <th>Компания работника</th>
                                             <th>Phone Number</th>
                                             <th>Причина</th>
