@@ -23,7 +23,7 @@ class FaqParentController extends Controller
     {
         $this->authorize('viewAny', FaqParent::class);
         return view('pages.lib.faq_parent.index', [
-            'title' => 'Категория FAQ',
+            'title' => 'FAQ Category',
             'items' => FaqParent::latest()->paginate(24)
         ]);
     }

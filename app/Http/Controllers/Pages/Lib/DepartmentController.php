@@ -18,7 +18,7 @@ class DepartmentController extends Controller
     /**
      * @var string
      */
-    private string $title = 'Список отделений';
+    private string $title = 'List of departments';
 
     /**
      * Display a listing of the resource.
@@ -40,7 +40,7 @@ class DepartmentController extends Controller
                 ->filterByRole()
                 ->latest()
                 ->paginate(24),
-            'title' => 'Список отделений'
+            'title' => 'List of departments'
         ]);
     }
 

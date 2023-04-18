@@ -18,7 +18,7 @@ class MainController extends Controller
         $this->authorize('viewAny', LibCompany::class);
 
         return view('pages.company.index', [
-            'title' => 'Список компании',
+            'title' => 'List of companies',
             'items' => LibCompany::query()
                 ->with('director')
                 ->latest()

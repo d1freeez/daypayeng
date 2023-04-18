@@ -19,7 +19,7 @@ class FeedbackController extends Controller
     {
         $this->authorize('viewAny', Feedback::class);
         return view('pages.feedback.index', [
-            'title' => 'Список обратной связи',
+            'title' => 'Feedback list',
             'items' => Feedback::with('user')->latest()->paginate(24)
         ]);
     }

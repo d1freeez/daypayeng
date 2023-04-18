@@ -13,7 +13,7 @@ class BringController extends Controller
     {
         $this->authorize('viewAny', Bring::class);
         return view('pages.bring.index', [
-            'title' => 'Список приглашении работодателя',
+            'title' => 'List of employer's invitations',
             'items' => Bring::query()->latest()->paginate(24)
         ]);
     }

@@ -15,7 +15,7 @@ class MainController extends Controller
     public function index(): View
     {
         return view('pages.request-advance.index', [
-            'title' => 'Список запросов на выплату',
+            'title' => 'List of payout requests',
             'items' =>
                 AdvanceAccount::query()
                     ->filter()

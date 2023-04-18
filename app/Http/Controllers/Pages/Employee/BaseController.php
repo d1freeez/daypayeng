@@ -19,7 +19,7 @@ class BaseController extends Controller
     public function index(): View
     {
         return view('pages.employee.index', [
-            'title' => 'Список работников',
+            'title' => 'List of Employees',
             'items' => Employee::filterByRole()->with('company')->filter()->latest()->paginate(24),
             'companies' => LibCompany::all()
         ]);
@@ -29,7 +29,7 @@ class BaseController extends Controller
     {
         $auth_user = User::with('company', 'company.departments')->find(auth()->id());
         return view('pages.employee.create', [
-            'title' => 'Создание элемента в списке работников',
+            'title' => 'Creating an item in the list of employees',
             'companies' => LibCompany::all(),
             'departments' => $auth_user->type != UserType::ADMIN ? $auth_user->company->departments : null
         ]);
@@ -38,7 +38,7 @@ class BaseController extends Controller
     public function store(StoreRequest $request, CreatesEmployees $employeeCreator): RedirectResponse
     {
         $employeeCreator->create($request->validated());
-        toastSuccess('Новый элемент в список работников успешно добавлено');
+        toastSuccess('Successfully added');
         return redirect()->route('employees.index');
     }
 
@@ -47,7 +47,7 @@ class BaseController extends Controller
         $auth_user = User::with('company', 'company.departments')->find(auth()->id());
         return view(
             'pages.employee.update', [
-                'title' => 'Изменение элемента в списке работников',
+                'title' => 'Edit element',
                 'companies' => LibCompany::all(),
                 'departments' => $auth_user->type != UserType::ADMIN ? $auth_user->company->departments : null,
                 'item' => $employee

@@ -21,7 +21,7 @@ class MainController extends Controller
     public function index(): View
     {
         return view('pages.super_manager.index', [
-            'title' => 'Список супер менеджеров',
+            'title' => 'List of super managers',
             'items' => SuperManager::latest()->paginate(24)
         ]);
     }
@@ -34,7 +34,7 @@ class MainController extends Controller
     public function create(): View
     {
         return view('pages.super_manager.create', [
-            'title' => 'Создание элемента в список супер менеджеров'
+            'title' => 'Создание элемента в List of super managers'
         ]);
     }
 

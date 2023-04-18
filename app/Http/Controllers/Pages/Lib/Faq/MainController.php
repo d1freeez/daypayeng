@@ -23,7 +23,7 @@ class MainController extends Controller
     {
         $this->authorize('viewAny', Faq::class);
         return view('pages.faq.index', [
-            'title' => 'Список часто задаваемых вопросов',
+            'title' => 'FAQ list',
             'items' => Faq::query()->with('parent')->latest()->paginate(24)
         ]);
     }
@@ -38,7 +38,7 @@ class MainController extends Controller
     {
         $this->authorize('create', Faq::class);
         return view('pages.faq.create', [
-            'title' => 'Создание элемента в список часто задаваемых вопросов'
+            'title' => 'Создание элемента в FAQ list'
         ]);
     }
 
