@@ -10,7 +10,7 @@
                         <!--begin: Form Wizard Step 1-->
                         <div class="kt-form">
                             <div class="kt-wizard-v2__content" >
-                                <div class="kt-heading kt-heading--md">Введите данные аккаунта</div>
+                                <div class="kt-heading kt-heading--md">Enter your account information</div>
                                     <div class="kt-form__section kt-form__section--first">
                                         <form action="{{ route('profile_account_save') }}" method="post">
                                             <div class="kt-wizard-v2__form">
@@ -31,7 +31,7 @@
                                             @csrf
                                             <div class="kt-form__actions text-right">
                                                 <button type="submit" class="btn btn-success">
-                                                    Сохранить
+                                                    Save
                                                 </button>
                                             </div>
                                         </form>

@@ -25,7 +25,7 @@
     'code text here': "программный код",
     'Quote': "Цитата",
     'quote here': "цитируемый текст",
-    'Save': "Сохранить",
+    'Save': "Save",
     'Preview': "Предпросмотр"
   };
 }(jQuery))

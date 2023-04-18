@@ -8,7 +8,7 @@
                     <div class="kt-portlet__body">
                         <div class="text-center text-white d-flex flex-column">
                             <i class="fa fa-credit-card" style="font-size: 45px; margin-bottom: 10px;"></i>
-                            <h6 style="font-size: 20px; margin-bottom: 0;">Карты</h6>
+                            <h6 style="font-size: 20px; margin-bottom: 0;">Cards</h6>
                         </div>
                     </div>
                 </a>
