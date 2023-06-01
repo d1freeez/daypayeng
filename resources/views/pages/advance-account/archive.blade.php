@@ -96,7 +96,7 @@
                                             $n = ($items->currentPage() - 1) * $items->perPage() + 1;
                                         @endphp
                                         @forelse ($items as $item)
-                                            <tr>
+                                        <tr>
                                                 <th scope="row">{{ $n++ }}</th>
                                                 <td>{{ $item->user ? $item->user->full_name : 'Пользователь не найден' }}</td>
                                                 <td>{{ $item->user ? $item->user->company->name : 'Пользователь не найден' }}</td>
@@ -123,7 +123,7 @@
                                                     </div>
                                                 </td>
                                                 @endcan
-                                            </tr>
+                                        </tr>
                                         @empty
                                             <tr>
                                                 <td>{{ __('table.not_found') }}</td>

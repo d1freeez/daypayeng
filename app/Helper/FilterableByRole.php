@@ -45,15 +45,23 @@ trait FilterableByRole
                 $builder->whereHas($column['has'], function (
                     Builder $builder
                 ) use ($column, $user) {
+                    if ($column['name'] == 'owning_department_id') {
+                        if ($user->departments()->exists()) {
+                            $columnValue = $user->departments()->first()->id;
+                            $column['name'] = 'department_id';
+                        }
+                    } else {
+                        $columnValue = $user->getAttribute($column['name']);
+                    }
                     $builder->where(
                         $column['name'],
-                        $user->getAttribute($column['name'])
+                        $columnValue
                     );
                 });
             } else {
                 $builder->where(
                     $column['name'],
-                    $user->getAttribute($column['name'])
+                    $user->$column['name']
                 );
             }
         } else {
