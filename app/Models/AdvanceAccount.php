@@ -50,12 +50,13 @@ class AdvanceAccount extends Model
         [
             'user_type' => UserType::MANAGER,
             'column' => [
-                ['name' => 'company_id'],
-                [
-                    'name' => 'department_id',
-                    'has' => 'user'
-                ]
+                'name' => 'department_id',
+                'has' => 'user'
             ]
+        ],
+        [
+            'user_type' => UserType::MANAGER,
+            'column' => 'company_id'
         ]
     ];
 
